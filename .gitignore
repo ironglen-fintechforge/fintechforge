@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual environments
+.venv/
+.env/
+.venv*/
+.env*/
+
+# Poetry lock (optional to commit; keep ignored for teaching)
+poetry.lock
+
+# Jupyter
+.ipynb_checkpoints/
+.notebook_autosave/
+
+# OS / IDE
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Data (teaching datasets kept local)
+/data/raw/
+/data/processed/
+/data/external/
+*.parquet
+*.csv
+*.tsv
+*.jsonl
+
+# Logs
+logs/
+*.log
+
+# Coverage
+.htmlcov/
+.coverage*
+.pytest_cache/
+
+# Local configs
+*.local.*
+.envrc
